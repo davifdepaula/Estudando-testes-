@@ -21,7 +21,7 @@ class Funcionario:
         
         if int(actual_month) <=  int(birth_month) and int(birth_day) <= int(actual_day):
             return int(actual_year) - int(birth_year) - 1
-        
+                
         return int(actual_year) - int(birth_year)
     
     def sobrenome(self):
